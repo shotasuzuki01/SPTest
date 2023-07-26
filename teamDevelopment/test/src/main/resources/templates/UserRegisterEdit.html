@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>ユーザー登録</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="vieport"
+	content="width=device-widht,initial-scale=1.0,minimum-scale=1.0">
+<title>ユーザー編集・削除</title>
+<link href="/css/style3.css" th:href="@{/css/style3.css/}" rel="styleSheet">
+</head>
+<body>
+	<div id="form">
+		<p class="form-title">ユーザー編集・削除</p>
+		<hr>
+			<form th:action="@{/user/update}" th:object="${userUpdateRequest}" th:method="post">
+			<input type="hidden" th:field="*{id}" />
+			<div class="format">
+				<p>名前</p>
+				<p class="mail">
+					<input type="text" class="form-control" th:field="*{name}">
+				</p>
+				<p>名前（フリガナ）</p>
+				<p class="pass">
+					<input type="text" class="form-control" th:field="*{furigana}">
+				</p>
+				<p>メールアドレス</p>
+				<p class="pass">
+					<input type="text" class="form-control" th:field="*{mail}">
+				</p>
+				<p>パスワード</p>
+				<p class="pass">
+					<input type="text" class="form-control" th:field="*{pass}">
+				</p>
+			</div>
+
+			<div class="parent">
+				<div class="child">
+					<button class="botton"type="button">更新</button>
+				</div>
+				<div class="child">
+					<button class="botton"type="button">戻る</button>
+				</div>
+				<div class="child2">
+					<button class="botton"type="button">アカウント削除</button>
+				</div>
+			</div>
+
+		</form>
+	</div>
+</body>
+
+</html>

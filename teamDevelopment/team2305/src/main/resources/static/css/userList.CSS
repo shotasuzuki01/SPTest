@@ -1,0 +1,23 @@
+.btnback{
+    background-color: #666666;
+}
+.btn{
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 400px;
+    font-size: 30px;
+    text-align: center;
+}
+table, td, th {
+    border: 1px #000000 solid;
+    border-collapse: collapse;
+    margin:-1px; 
+    font-size: 20px;
+}
+table{
+    margin-left: auto;
+}
+th{
+    width: 320px;
+}

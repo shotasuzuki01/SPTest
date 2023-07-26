@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+hr {
+	border-width: 1px;
+	width: 410px;
+}
+
+body {
+	margin-top: 10%;
+}
+
+form{
+	text-align: center;
+	margin: 0;
+}
+.form {
+	margin: 5px auto;
+	text-align:left;
+	width: 400px;
+}
+
+.form-title {
+	text-align: center;
+}
+
+.nametitle{
+	padding-left: 27%;
+}
+.furiganatitle{
+	padding-left: 20%;
+}
+.mailtitle{
+	padding-left: 21%;
+}
+.passtitle{
+	padding-left: 23%;
+}
+.parent {
+	display: flex;
+	justify-content: space-around;
+}
+
+.child {
+	text-align: center;
+	width: 80px;
+	height: 100px;
+	padding-top:2%;
+}
+
+button {
+	background-color: #2b95ff;
+	width: 140%;
+	height: 30%;
+	color: #f9f9f9;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+}

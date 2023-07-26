@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+hr {
+	border-width: 1px;
+	width: 410px;
+}
+
+body {
+	margin-top: 10%;
+}
+
+p, form, input {
+	margin: 0;
+}
+
+#form {
+	width: 400px;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+form p {
+	font-size: 14px;
+}
+
+.form-title {
+	text-align: center;
+}
+
+.mail, .pass {
+	margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"] {
+	width: 400px;
+	padding: 4px;
+	font-size: 14px;
+}
+
+.child {
+	display: inline-block;
+	text-align: left;
+	width: 80px;
+	height: 100px;
+	padding-left: 0px;
+	padding-right: 35px;
+}
+
+.child2 {
+	display: inline-block;
+	text-align: right;
+	width: 100px;
+	height: 100px;
+	padding-left: 32px;
+}
+
+.botton {
+	background-color: #2b95ff;
+	width: 140%;
+	height: 30%;
+	color: #f9f9f9;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: none;
+}
